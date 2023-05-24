@@ -1,0 +1,12 @@
+Faça um paralelo sobre o conceito de ponteiros e os vetores(estáticos)
+
+Ponteiros são variáveis capazes de armazenar o endereço de memória de outras variaveis.
+Vetores são estruturas de dados simples que armazenam conjuntos de dados de mesmo tipo em blocos contíguos de memória.
+Implicitamente, quando um vetor é declarado, o nome associado a ele passa a apontar para o endereço de memória do primeiro bloco desse vetor,
+na pratica o nome vetor é tratado como um apontador para o primeiro bloco de memória.
+Mas o nome do vetor não é um ponteiro de fato, tendo em vista que ele aponta exclusivamente para o endereço do primeiro bloco do vetor e
+seu valor não pode ser alterado, o que leva a impossibilidade de realizar operações usuais de ponteiros tais como incremento(++) e decremento(--)
+ou como dito anteriormente qualquer alteração no endereço armazenado.
+Ou seja existem diferenças conceituais e de comportamento de memória entre ponteiros e vetores, mesmo que em grande parte a manipulação de vetores
+se dê através de manipulação de endereços de memoria.  
+
