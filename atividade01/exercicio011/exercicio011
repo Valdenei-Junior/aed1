@@ -1,0 +1,8 @@
+
+“Um vetor é essencialmente um ponteiro” – Você concorda com essa afirmação? explique
+
+Concordo em partes pois, na pratica o nome do vetor é um apontador para um endereço de memória, no caso
+o primeiro bloco do vetor. Mas não podemos utiliza-lo plenamente como um ponteiro, seu valor não pode ser alterado, portanto 
+ele não se comporta plenamente como um ponteiro, tendo em vista que algumas operações permitidas com ponteiros não
+podem ser efetuadas com o nome do vetor. Porém ainda podemos efetuar aritmética de ponteiros sobre o nome do vetor e assim obter o endereço de memória de outros
+blocos desse vetor.

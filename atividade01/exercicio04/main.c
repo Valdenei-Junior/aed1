@@ -12,7 +12,7 @@
 
 int main(int argc, char** argv)
 {
-    int i, j;
+    int i, j, n_aprovados = 0;
     float vetor_notas[10][4], vetor_medias[10];
 
     // entrada de dados
@@ -22,10 +22,10 @@ int main(int argc, char** argv)
 
     // processamento dos dados
     calcular_medias(vetor_notas, vetor_medias, 10, 4);
-
+    n_aprovados = quant_aprovados(vetor_medias, 10);
+    
     // saida
-    for(i = 0; i < 10; i++)
-    printf("%.1f\n", vetor_medias[i]);
+    printf("%d\n", n_aprovados);
 
     return 0;
 }

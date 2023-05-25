@@ -6,7 +6,5 @@ Implicitamente, quando um vetor é declarado, o nome associado a ele passa a apo
 na pratica o nome vetor é tratado como um apontador para o primeiro bloco de memória.
 Mas o nome do vetor não é um ponteiro de fato, tendo em vista que ele aponta exclusivamente para o endereço do primeiro bloco do vetor e
 seu valor não pode ser alterado, o que leva a impossibilidade de realizar operações usuais de ponteiros tais como incremento(++) e decremento(--)
-ou como dito anteriormente qualquer alteração no endereço armazenado.
-Ou seja existem diferenças conceituais e de comportamento de memória entre ponteiros e vetores, mesmo que em grande parte a manipulação de vetores
-se dê através de manipulação de endereços de memoria.  
+ou como dito anteriormente qualquer alteração no endereço armazenado.  
 
